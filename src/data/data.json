@@ -1,0 +1,45 @@
+[
+  {
+    "skills": [
+      { "id":"1","name": "Angular", "img": "https://angular.io/assets/images/logos/angular/angular_solidBlack.svg" },
+      { "id":"2","name": "React JS", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" },
+      { "id":"3","name": "JavaScript", "img": "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" },
+      { "id":"4","name": "Java", "img": "https://cdn-icons-png.flaticon.com/512/226/226777.png" },
+      { "id":"5","name": "HTML", "img": "https://cdn-icons-png.flaticon.com/512/732/732212.png" },
+      { "id":"6","name": "SCSS", "img": "https://static-00.iconduck.com/assets.00/file-type-scss-icon-1723x2048-gqfgbzhc.png" },
+      { "id":"7","name": "BOOTSTRAP", "img": "https://cdn-icons-png.flaticon.com/512/5968/5968672.png" },
+      { "id":"8","name": "Tailwind CSS", "img": "https://www.loopple.com/img/tailwind-logo.png" },
+      { "id":"9","name": "Express.js", "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
+      { "id":"10","name": "MongoDB", "img": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_logo_icon_146422.png" },
+      { "id":"11","name": "SQL", "img": "https://cdn-icons-png.flaticon.com/512/4299/4299956.png" },
+      { "id":"12","name": "Git", "img": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" }
+    ],
+    "experience": [
+      {
+        "name": "eRevMax",
+        "img":"https://www.seekpng.com/png/full/335-3357564_with-smart-travel-channel-travel-channel-logo-png.png",
+        "role": "Graduate Apprentice Trainee",
+        "s_date": "March 2023",
+        "e_date": "Current",
+        "details": [
+          "Actively involved in the development and maintenance of Angular-based web applications,contributing to theenhancement of user interfaces and overall user experience.",
+          "Troubleshoot and debug issues to optimize performance, delivering high-quality solutions within project timelines.",
+          "Successfully developed and implemented two major features, incorporating comprehensive CRUD (Create, Read, Update,Delete) operations, pagination, and advanced search functionality. Which is live on RateTiger hotel channel manager.",
+          "Actively contributed to the development of various other features, collaborating closely with cross-functional teams to meet project requirements."
+        ],
+        "technology_used": ["Angular", "Tailwind Css","HTML & SCSS","JavaScript","TypeScript" ,"TortoiseSVN"]
+      },
+      {
+        "name": "Flipkart Big Box Haringhata",
+        "img":"https://i.pinimg.com/originals/aa/70/8d/aa708d1f97a04f6f5a208213f89e1e67.png",
+        "role": "Launchpad Intern",
+        "s_date": "Sep 2021",
+        "e_date": "Nov 2021",
+        "details": [
+          "Managed entire Operations handling products to be shipped generating barcodes and Applying the Barcodes on products after scanning used to do Order Cancelation Team Management Managed Flipkart Big Billion Day Sales Execution Part."
+        ],
+        "technology_used": ["Microsoft Excel"]
+      }
+    ]
+  }
+]

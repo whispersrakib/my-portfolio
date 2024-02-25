@@ -1,0 +1,178 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    color: aliceblue;
+    position: absolute;
+    padding: 0 50px;
+    
+}
+.btn {
+    display: none;
+}
+.logo{
+    font-size: 20px;
+    color: #fd8e8e;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+.links{
+    display: flex; 
+    padding: 0;
+}
+.links li{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.linksa{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #b5b6bd;
+    position: relative;
+    transition: all 0.2s;
+
+
+}
+
+.linksa:before{
+    content: "";
+    height:5px ;
+    width: 0;
+    background-color:#00bcd4 ;
+    position: absolute;
+    top:120% ;
+    left: 0;
+    transition: all 0.5s;
+
+}
+.linksa:after{
+    content: "";
+    height:5px ;
+    width: 0;
+    background-color:#f0f ;
+    position: absolute;
+    top:120% ;
+    right: 0;
+    transition: all 0.5s;
+
+}
+
+.linksa:hover:before{
+  width: 50%;
+  transform: translateX(100%);
+
+}
+.linksa:hover:after{
+    width: 50%;
+    transform: translateX(-100%);
+
+}
+.linksa:hover{
+    color: #64ffda;
+    transition-delay: 0.4s;
+
+}
+.rela{
+    position: relative;
+}
+#cbtn{
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;;
+    font-size: 13px;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace ;
+    line-height: 1;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    text-transform: capitalize;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+
+}
+
+
+
+#cbtn:hover{
+    transform:translate(-5px ,-5px) ; 
+
+    box-shadow: 5px 5px #64ffda;
+}
+.active{
+    color: #64ffda;
+    font-weight: 500;
+}
+.logooo{
+    margin-top: 15px;
+    width: 200px;
+    height: 90%;
+}
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .navBar{
+    height: 50vh;
+    position: absolute;
+
+
+    }
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .links {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .menu{
+        flex-direction: column;
+        height: 60%;
+        width: 100vw;
+        background-color: #0a192f;
+        z-index: 99;
+        margin-left: 55px;
+        border-radius: 8px;
+     
+    }
+    #cbtn{
+        transform: translate(-50%);
+    }
+    .linksa:nth-child(1){
+        margin-top: 50px;
+    }
+    .linksa {
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+    .logooo {
+        width: 100px;
+        height: 100px;
+    }
+    .btn {
+        display: block;
+        position: absolute;
+        transform: scale(1.4);
+        top: 50px;
+        right: 10px;
+    }
+
+}
