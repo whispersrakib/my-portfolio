@@ -31,7 +31,7 @@ function About() {
           <a className="contactMe" href="#con"><span></span> contact me</a>
           <div className="socialLinks"> 
           
-            <p>Fild me at <a href="#">Instagran</a>, <a href="#">GitHub</a> and <a href="#"> LinkedIn</a></p>
+            <p>Fild me at <a target="_blank" href="https://www.linkedin.com/in/abdur-rakib-shaikh/">LinkedIn </a>, <a target="_blank" href="https://github.com/whispersrakib">GitHub</a> and <a target="_blank" href="https://www.instagram.com/its__rakib__/"> Instagran</a></p>
             <p>Download <a target="_blank" href={resume}> my resume</a> (PDF)</p>
           </div>
         

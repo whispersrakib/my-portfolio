@@ -37,7 +37,7 @@ function Contact(params) {
               <li>
                 <a className="a" target="_blank" href="https://www.linkedin.com/in/abdur-rakib-shaikh/">
                 {" "}
-                <LuInstagram className="changeColor" />{" "}
+                < LuLinkedin className="changeColor" />{" "}
                 </a>
                
               </li>
@@ -51,7 +51,7 @@ function Contact(params) {
               <li>
                 <a className="a" target="_blank" href="https://www.instagram.com/its__rakib__/">
                 {" "}
-                <LuLinkedin className="changeColor" />{" "}
+                <LuInstagram className="changeColor" />{" "}
                 </a>
                
               </li>
